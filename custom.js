@@ -47,7 +47,7 @@ input.addEventListener("input", function () {
 });
 
 ////////////////////////////////////////////////////////////
-// Pricing Range Slider Tag
+/* Pricing Range Slider Tag
 $(document).ready(function () {
   $(document).on("DOMNodeInserted", function (e) {
     if ($(e.target).is("div.tag-text")) {
@@ -68,7 +68,7 @@ $(document).ready(function () {
     }
   });
 });
-
+*/
 ////////////////////////////////////////////////////////////
 // Single Clear Buttons
 
