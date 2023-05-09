@@ -130,3 +130,25 @@ wrappers.forEach(function (wrapper) {
       });
   });
 });
+
+
+//interactions for product card
+/*
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".product-card-wrapper").forEach((trigger) => {
+    trigger.addEventListener("mouseover", function () {
+      this.querySelectorAll(".product-image-wrapper").forEach((target) =>
+        target.classList.add("hover-in")
+      );
+    });
+  });
+
+  document.querySelectorAll(".product-card-wrapper").forEach((trigger) => {
+    trigger.addEventListener("mouseout", function () {
+      document
+        .querySelectorAll(".product-image-wrapper")
+        .forEach((target) => target.classList.remove("hover-in"));
+    });
+  });
+});
+*/
